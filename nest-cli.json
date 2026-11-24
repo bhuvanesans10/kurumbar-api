@@ -1,0 +1,18 @@
+{
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "assets": [
+      {
+        "include": "swagger/**/*"
+      },
+      {
+        "include": "proto/*.proto",
+        "watchAssets": true
+      },
+      {
+        "include": "**/*.hbs",
+        "watchAssets": true
+      }
+    ]
+  }
+}

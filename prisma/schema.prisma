@@ -1,0 +1,17 @@
+generator client {
+  provider   = "prisma-client"
+  output     = "../src/prisma/generated"
+  engineType = "client"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ============================================================================
+// MODELS (keep all models in this upper section; never interleave with enums)
+// ============================================================================
+
+// ============================================================================
+// ENUMS (keep all enums in this lower section, after all models)
+// ============================================================================

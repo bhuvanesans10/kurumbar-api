@@ -1,0 +1,28 @@
+{
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "builder": "swc",
+    "assets": [
+      {
+        "include": "swagger/**/*",
+        "outDir": "dist"
+      },
+      {
+        "include": "**/*.json",
+        "outDir": "dist"
+      },
+      {
+        "include": "**/*.graphql",
+        "outDir": "dist"
+      },
+      {
+        "include": "**/*.hbs",
+        "outDir": "dist"
+      },
+      {
+        "include": "**/*.proto",
+        "outDir": "dist"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+.dockerignore
+docker-compose.yml
+Dockerfile
+dist/
+node_modules
+.gitignore
+.prettierignore
+.env
+.env.template
+open-collection-yaml/
+
+# Generated code-graph cache -- never COPY'd into the image (190MB+ of ast
+# cache that only serves local graphify tooling)
+graphify-out/
